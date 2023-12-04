@@ -1,0 +1,17 @@
+tr,td,table{
+    border: 1px solid #D8D9DA;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+body{
+    align-items: center;
+}
+
+th{
+    background-color: #D6EFED;
+}
+
+body{
+    width:fit-content;
+}
