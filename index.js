@@ -20,7 +20,7 @@ const tableBody=document.getElementById("employeetable").getElementsByTagName('t
 
 filteredEmployees.forEach(employee=>{
     
-    console.log(employee.designation);
+    // console.log(employee.designation);
     const row=tableBody.insertRow();
     row.insertCell().textContent=employee.nameE;
     row.insertCell().textContent=employee.designation;
@@ -29,6 +29,6 @@ filteredEmployees.forEach(employee=>{
 });
 
 
-//   row.insertCell().textContent=employee.datejoin;
+// row.insertCell().textContent=employee.datejoin;
 // row.insertCell().textContext=employee.designation;
 // row.insertCell().textContext=employee.datejoin;

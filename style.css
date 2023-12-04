@@ -1,6 +1,6 @@
 tr,td,table{
-    border: 1px solid #D8D9DA;
-    font-size: 12pt;
+    border: 1pt solid #D8D9DA;
+    
     padding: 10px;
 }
 
@@ -14,4 +14,5 @@ th{
 
 body{
     width:fit-content;
+    font-size: 12pt;
 }
